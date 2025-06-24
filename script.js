@@ -35,3 +35,5 @@ const markBMI = markMass / markHeight ** 2;
 
 console.log(johnBMI);
 console.log(markBMI);
+
+ const markHigherBMI = markHigherBMI 
