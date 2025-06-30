@@ -111,7 +111,7 @@ const massJohn = 92;
 const heightJohn = 1.95;
 
 const BMIMark = massMark / heightMark ** 2;
-const BMIJohn = massJohn / heightJohn * heightJohn;
+const BMIJohn = massJohn / (heightJohn * heightJohn);
 console.log(BMIMark, BMIJohn);
 
 if (BMIMark > BMIJohn) {
@@ -142,3 +142,20 @@ if (hasDriversLicense && hasGoodVision && !isTired) {
 } else {
     console.log('oops!! someone should drive...');
 }
+
+
+// CODE CHALLENGE 03
+// both team compete 3 times, winner with avg scores win. 
+
+const teamDolphins = teamA;
+const teamKoalas = teamB;
+
+const teamAScoreOne = 96;
+const teamAScoreTwo = 108;
+const teamAScoreThree = 89;
+
+const teamBScoreOne = 88;
+const teamBScoreTwo = 91;
+const teamBScoreThree = 110;
+
+const avg = 
