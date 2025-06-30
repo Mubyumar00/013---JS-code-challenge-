@@ -105,28 +105,28 @@ GOOD LUCK 😀
 //     console.log('Why not 23?');
 // }
 
-const massMark = 78;
-const heightMark = 1.69;
-const massJohn = 92;
-const heightJohn = 1.95;
+// const massMark = 78;
+// const heightMark = 1.69;
+// const massJohn = 92;
+// const heightJohn = 1.95;
 
-const BMIMark = massMark / heightMark ** 2;
-const BMIJohn = massJohn / (heightJohn * heightJohn);
-console.log(BMIMark, BMIJohn);
+// const BMIMark = massMark / heightMark ** 2;
+// const BMIJohn = massJohn / (heightJohn * heightJohn);
+// console.log(BMIMark, BMIJohn);
 
-if (BMIMark > BMIJohn) {
-    console.log(`Mark's BMI (${BMIMark}) is greater than John's (${BMIJohn})`);
-} else {
-    console.log(`John's BMI (${BMIJohn}) is greater than Mark's (${BMIMark})`);
-}
+// if (BMIMark > BMIJohn) {
+//     console.log(`Mark's BMI (${BMIMark}) is greater than John's (${BMIJohn})`);
+// } else {
+//     console.log(`John's BMI (${BMIJohn}) is greater than Mark's (${BMIMark})`);
+// }
 
 // LOGICAL OPERATORS
 
-const hasDriversLicense = true;
-const hasGoodVision = true;
+// const hasDriversLicense = true;
+// const hasGoodVision = true;
 
-console.log(hasDriversLicense);
-console.log(hasGoodVision);
+// console.log(hasDriversLicense);
+// console.log(hasGoodVision);
 
 // if (hasDriversLicense && hasGoodVision) {
 //     console.log('yay!! you can drive');
@@ -134,28 +134,67 @@ console.log(hasGoodVision);
 //     console.log('opps!! someone should drive...');
 // }
 
-const isTired = false;
-console.log(hasDriversLicense && hasGoodVision && isTired);
+// const isTired = false;
+// console.log(hasDriversLicense && hasGoodVision && isTired);
 
-if (hasDriversLicense && hasGoodVision && !isTired) {
-    console.log('yay!! you can drive');
-} else {
-    console.log('oops!! someone should drive...');
-}
+// if (hasDriversLicense && hasGoodVision && !isTired) {
+//     console.log('yay!! you can drive');
+// } else {
+//     console.log('oops!! someone should drive...');
+// }
 
 
 // CODE CHALLENGE 03
 // both team compete 3 times, winner with avg scores win. 
 
-const teamDolphins = teamA;
-const teamKoalas = teamB;
+// const teamDolphins = 0;
+// const teamKoalas = 0;
 
-const teamAScoreOne = 96;
-const teamAScoreTwo = 108;
-const teamAScoreThree = 89;
+// const teamA = teamDolphins;
+// const teamB = teamKoalas;
 
-const teamBScoreOne = 88;
-const teamBScoreTwo = 91;
-const teamBScoreThree = 110;
+// console.log(teamA, teamB);
 
-const avg = 
+// const teamAScoreOne = 96;
+// const teamAScoreTwo = 108;
+// const teamAScoreThree = 89;
+
+// const teamBScoreOne = 88;
+// const teamBScoreTwo = 91;
+// const teamBScoreThree = 110;
+
+// const avgteamA = (teamAScoreOne + teamAScoreTwo + teamAScoreThree) / 3;
+// const avgteamB = (teamBScoreOne + teamBScoreTwo + teamBScoreThree) / 3;
+
+// 1 - Average score of teamA & teamB
+// console.log(avgteamA, avgteamB);
+
+// 2 - Determine the winner based on average scores
+// if (avgteamA > avgteamB) {
+//     console.log(`Team A wins with an average score of ${avgteamA}`);
+// } else if (avgteamB > avgteamA) {   
+//     console.log(`Team B wins with an average score of ${avgteamB}`);
+// } else if (avgteamA === avgteamB) {
+//     console.log(`It's a draw with both teams scoring ${avgteamA}`);
+// } else {
+//     console.log('No team wins');
+// }
+
+
+//  Bonus - 1: 100 points as minimum score to win
+// const minScore = 100;
+
+// if (avgteamA > avgteamB && avgteamA >= minScore) {
+//     console.log(`Team A wins having score greater than 100, with ${avgteamA}`);
+// } else if (avgteamB > avgteamA && avgteamB >= minScore) {
+//     console.log(`Team B wins having score greater than 100, with ${avgteamB}`);
+// } else if (avgteamA === avgteamB && avgteamA >= minScore) {
+//     console.log(`It's a draw with both teams scoring ${avgteamA, avgteamB} which is greater than 100`);
+// } else {
+//     console.log('No team wins as no team scored above 100');
+// }
+
+
+//  CONDITIONAL OPERATORS
+const age = 23;
+age >= 18 ? console.log('I like to drink wine') : console.log('I like to drink water');
