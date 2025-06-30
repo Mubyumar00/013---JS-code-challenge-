@@ -196,5 +196,35 @@ GOOD LUCK 😀
 
 
 //  CONDITIONAL OPERATORS
-const age = 23;
-age >= 18 ? console.log('I like to drink wine') : console.log('I like to drink water');
+// const age = 23;
+// age >= 18 ? console.log('I like to drink wine') : console.log('I like to drink water');
+
+// const drink = age >= 18 ? 'wine 🍷' : 'water 💧';
+// console.log(drink);
+
+
+// Code challenge #4
+// Steven wants to build a very simple tip calculator for whenever he goes eating in a restaurant.
+// 1. Create a variable called bill for the bill value. 
+// 2. Create a variable called tip, for the tip value. using the formula: tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2
+// 3. Create a variable called total, for the total value (bill + tip).
+// TEST DATA: Test for bill values 275, 40 and 430.
+
+// TEST 01
+// const bill = 275;
+// const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+// const total = bill + tip;
+
+// console.log(`The bill was ${bill}, the tip was ${tip}, and the total value is ${total}.`);
+
+// TEST 02
+// const bill = 40;
+// const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+// const total = bill + tip;
+// console.log(`The bill was ${bill}, the tip was ${tip}, and the total value is ${total}.`);
+
+// TEST 03
+const bill = 430;
+const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+const total = bill + tip;
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value is ${total}.`);
